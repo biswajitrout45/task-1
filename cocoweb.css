@@ -6,6 +6,7 @@
 body{
     font-family: Arial, sans-serif;
 }
+
 .coco{
     padding: 20px;
     background-color: rgba(45, 111, 223, 0.575);
@@ -15,32 +16,31 @@ body{
     justify-content: start;
     overflow: hidden;
 }
-.homepage{
+.first{
     position: relative;
-    top:10%;
+    top:5%;
     bottom: 90%;
-    left:0px;
+    left:30px;
     right:95%;
     color: white;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.mod{
-    display: flex;
-}
-.now{
+.first h4{
     font-size: 20px;
     margin-bottom: -10px;
-    
 }
-.meet{
+.first h1{
     font-size: 90px;
     margin-bottom: 5px;
     line-height: 1;
-    margin-top: -25px;
-    width: 50px;
 }
-.shop-button{
+.first p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.first .shop-button{
     padding: 10px 50px;
     background-color: white;
     color: #f94d69;
@@ -49,25 +49,20 @@ body{
     cursor: pointer;
     font-size: 16px;
 }
-.shop-button:hover{
+.first .shop-button:hover{
     background-color: rgba(8, 23, 157, 0.233);
     color: #f94d69;
 }
-.discount-logo{
-    margin-left: 50px;
-    margin-top: -50px;
+.second{
+    position: relative;
 }
+
 .discount{
     position: relative;
     margin-right: 5000%;
     top: 12%;
-    height: 100px;
-    width: 100px;
 }
-.para{
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+
 .third{
     position: relative;
     left: 38%;
@@ -78,4 +73,24 @@ body{
     margin-left:-250px;
     margin-top:-210px;
     background: none;
+}
+.discount{
+    height: 80px;
+    width: 80;
+}
+.first .meet{
+    width: 50px;
+}
+.mod{
+    display: flex;
+}
+.imge{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.meet h1{
+    margin-top: -25px;
+}
+.now{
+    margin-left: 5px;
 }
